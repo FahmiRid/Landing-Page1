@@ -6,7 +6,7 @@
     list-style: none;
     text-decoration: none;
 }
-
+/* ==== thi is for header style css start line ==== */
 header {
     position: fixed;
     right: 0;
@@ -51,11 +51,14 @@ header {
     display: none;
 }
 
+/* ==== header style css end-line ==== */
+
+/* ==== section style css start line ==== */
 .hero {
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #e7aae4 0%, #f06dc4 28.53%, #801171 75.52%);
+    background: linear-gradient(245.59deg, #b4e7aa 0%, #6df07c 28.53%, #11803f 75.52%);
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -132,6 +135,7 @@ section {
     vertical-align: middle;
     margin-right: 5px;
 }
+/* === section css style end line === */
 
 .icons {
     position: absolute;
